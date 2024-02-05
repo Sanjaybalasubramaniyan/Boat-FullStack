@@ -1,0 +1,131 @@
+/* home.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Optional: Add padding for inner content */
+}
+
+.hero {
+    background-image: url('https://images.news18.com/ibnlive/uploads/2023/01/thunivu-ajith-kumar-manju-warrier-manju-warrier-on-ajith-kumar-ajith-kumar-taught-manju-warrier-how-to-ride-jet-ski-manju-warrier-jet-ski-experience-167299581516x9.png'); /* Hero background image */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    max-width: 600px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image:hover img {
+    transform: scale(1.1); /* Increased scale on hover */
+}
+
+.services {
+    background-color: #f5f5f5; /* Lighter background color */
+    padding: 60px 0; /* Increased padding */
+}
+
+.servicesContent {
+    max-width: 1000px; /* Increased max-width */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.servicesContent h1 {
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.servicesList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.serviceItem {
+    width: calc(30% - 40px); /* Adjusted width */
+    margin: 20px;
+    text-align: center;
+    padding: 30px; /* Increased padding */
+    border-radius: 15px; /* Increased border-radius */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.serviceItem:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Increased box-shadow on hover */
+}
+
+.serviceItem img {
+    max-width: 100px; /* Adjusted max-width */
+    margin-bottom: 20px; /* Increased margin-bottom */
+}
+
+.serviceItem h3 {
+    font-size: 1.8rem; /* Increased font size */
+    margin-bottom: 15px; /* Increased margin-bottom */
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 60px 0; /* Increased padding */
+}
+
+.contactContent {
+    max-width: 800px; /* Increased max-width */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactContent h1 {
+    margin-bottom: 30px; /* Increased margin */
+}
+
+.contactContent p {
+    margin-bottom: 30px; /* Increased margin-bottom */
+}
+
+.contactDetails {
+    margin-top: 30px; /* Increased margin-top */
+}
+
+/* Additional styles as needed */
