@@ -1,0 +1,42 @@
+/* home.module.css */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .hero {
+    /* Existing styles for the hero section */
+  }
+  
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .text {
+    /* Existing styles for the text column */
+  }
+  
+  .image {
+    margin-top: 20px; /* Add margin for spacing between text and image */
+  }
+  
+  .image img {
+    width: 100%; /* Set image width to 100% to make it responsive */
+    max-width: 600px; /* Set maximum width if needed */
+    border-radius: 8px; /* Add border-radius for a rounded corner effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle shadow effect */
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition effect for zoom */
+  }
+  
+  .image img:hover {
+    transform: scale(1.1); /* Zoom in slightly on hover */
+  }
+  
+  /* ... other styles for different sections ... */
+  
